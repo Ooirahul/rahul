@@ -1,0 +1,21 @@
+p{                                          /*SELECTOR*/
+    color:green
+}
+
+a{
+    color: yellow
+}
+
+li{
+   list-style-type: square; 
+}
+
+.special{                                   /* CLASS SELECTOR*/
+
+    color: orange;
+    font-weight: bold;
+}
+
+span.special{                                       /* Selecting CLASS=SPECIAL inside SPAN attribute*/
+    color: red;
+}

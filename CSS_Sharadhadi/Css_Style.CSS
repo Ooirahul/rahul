@@ -1,0 +1,161 @@
+*{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+body{
+    background-image:url("Natraja.jpg");
+    background-size: cover;
+}
+
+h1.comment{
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: underline;
+    font-weight: lighter;
+}
+
+div{
+    background-color:rgba(0, 255, 255, 0.15);
+}
+
+.heading{
+    color: rgb(255, 0, 0);
+}
+
+button{
+    color:green;
+
+    background-color: pink;
+}
+
+h1.set2{
+    text-align: center;
+
+    text-transform: capitalize;
+}
+
+div#outer{
+    font-size:40px;
+}
+
+div#inner{
+    font-size:20px;
+}
+
+div.set3{
+    height:100px;
+    width:100px;
+
+    background-color:green;
+
+    border-radius:50%;    
+}
+
+div.traffic{
+    background-color: black;
+    height: 350px;
+    width:100px;
+}
+
+div.red{
+    border-radius:50%;
+    background-color:rgb(255, 0, 0);
+    height: 100px;
+    width:100px;
+}
+
+div.yellow{
+    border-radius:50%;
+    background-color:yellow;
+    height: 100px;
+    width:100px;
+}
+
+div.green{
+    border-radius:50%;
+    background-color: green;
+    height: 100px;
+    width:100px;
+}
+
+div.nav{
+    background-color:#0f1111;
+    height:60px;
+    border:2px solid rgb(255, 0, 0);
+    
+}
+
+a.amazon{
+    color:#f08804;
+    text-decoration:none;
+    padding-right:200px;
+    font-size:25px;
+}
+
+a.account, a.cart, a.contact{
+    color:white;
+    text-decoration:none;
+    padding-right:200px;
+}
+
+button.search{
+    background-color:#f08804;
+    color:white;
+}
+
+/* div.header{
+    height:100px;
+    width:100px;
+    border:2px solid rgb(255, 0, 0);
+}
+
+#one{
+    background-color:rgba(1, 50, 32, 0.25)
+}
+
+#two{
+    background-color:rgba(1, 50, 32, 0.50)
+}
+
+#three{
+    background-color:rgba(1, 50, 32, 0.75)
+} */
+
+
+.contentbox{
+    height:100px;
+    width:100px;
+    border: 2px dotted red;
+    display: inline-block;
+}
+#one{
+    background-color: rgba(208, 255, 0, 0.5);
+}
+
+#two{
+    background-color:rgba(1, 50, 32, 0.50);
+}
+
+#three{
+    background-color:rgba(0, 255, 162, 0.50);
+}
+
+footer{
+    background-color:#0f1111;
+    color:aliceblue;
+    text-align:center;
+}
+
+
+        /* Practice set 1 beings here... */
+    
+        #div5{
+            color:rgb(255, 255, 255);
+            height:100px;
+            width:100px;
+            background-image:url("Natraja.jpg");
+            background-size: cover;
+            position:sticky;
+            bottom:0px;
+            right:50px;
+        }
